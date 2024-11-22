@@ -1,0 +1,25 @@
+/* Chrome, Safari, Edge, Opera */
+@import url("https://fonts.cdnfonts.com/css/text");
+
+* {
+  font-family: bahnschrift;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+::placeholder {
+  color: #0d0d1f;
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #0d0d1f;
+}
